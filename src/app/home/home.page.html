@@ -1,0 +1,47 @@
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+</div>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-progress-bar type="indeterminate" color="primary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="secondary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="tertiary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="success"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="danger"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="light"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="medium"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="dark"></ion-progress-bar>
+<ion-button (click)="goToChangePassword()">Cambiar Contraseña</ion-button>
+<ion-button (click)="salir()">Cerrar sesion</ion-button>
+</ion-content>
+<ion-button id="present-alert">Siguiente</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="( ͡° ͜ʖ ͡°) "
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+<ion-datetime value="2022-04-21T00:00:00" min="2023-03-01T00:00:00" max="2023-05-31T23:59:59"></ion-datetime>
+<ion-progress-bar type="indeterminate" color="primary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="secondary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="tertiary"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="success"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="danger"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="light"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="medium"></ion-progress-bar>
+<ion-progress-bar type="indeterminate" color="dark"></ion-progress-bar>
